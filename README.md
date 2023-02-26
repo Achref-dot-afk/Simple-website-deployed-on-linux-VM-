@@ -7,5 +7,9 @@ I hosted my website on linux Virtual Machine using Apache webserver
 ### Command: sudo apt install apache2
 3-To start the apache HTTP server:
 ### Command: service apache2 start Copy
-![alt text]()
+4-Get status:
+### Command:sudo systemctl status apache2
+![alt text](https://github.com/Achref-dot-afk/Simple-website-deployed-on-linux-VM-/blob/main/screenshot1.png)
+### It Works!
+
 
