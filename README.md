@@ -14,5 +14,7 @@ I hosted my website on linux Virtual Machine using Apache webserver
 ![alt text](https://github.com/Achref-dot-afk/Simple-website-deployed-on-linux-VM-/blob/main/screenshot2.png)
 5-Inside /var/www we will find the html folder that contains the code of the default apache website
 6-We just need now to change the content of that folder and add the css and js scripts provided whith the right path for images etc....
+7- Here is the result :
+
 
 
