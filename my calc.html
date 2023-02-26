@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <h1>Simple Calculator</h1>
+    <div class="all">
+        <div class="first">
+            <input type="text" id="display" readonly>
+        </div>
+        <div class="key1">
+            <button  id="num1" onclick="readchar('1')">1</button>
+            <button  id="num2" onclick="readchar('2')">2</button>
+            <button  id="num3" onclick="readchar('3')">3</button>
+        </div>
+        <div class="key2">
+            <button  id="num4" onclick="readchar('4')">4</button>
+            <button  id="num5" onclick="readchar('5')">5</button>
+            <button  id="num6" onclick="readchar('6')">6</button>
+        </div>
+        <div class="key3">
+            <button  id="num7" onclick="readchar('7')">7</button>
+            <button  id="num8" onclick="readchar('8')">8</button>
+            <button  id="num9" onclick="readchar('9')">9</button>
+        </div>
+        <div class="key4">
+            <button  id="num0" onclick="readchar('0')">0</button>
+            <button  id="+" onclick="readchar('+')">+</button>
+            <button  id="-" onclick="readchar('-')">-</button>
+        </div>
+        <div class="key5">
+            <button  id="/" onclick="readchar('/')"> / </button>
+            <button  id="*" onclick="readchar('*')"> x </button>
+            <button  id="s" onclick="sum()"> = </button>
+        </div>
+        <div class="key6">
+            <button  id="c" onclick="clearScreen()">Clear</button>
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="C:\Users\Achref\Desktop\Mes Cours de L'ENIT(1ére)\CSS\styles.css">
+    
+</body>
+</html>
